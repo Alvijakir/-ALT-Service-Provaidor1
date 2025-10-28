@@ -83,7 +83,7 @@
             window.handleLogout = async (auth) => {
                 try {
                     await signOut(auth);
-                    window.showMessage("লগআউট সফল", "আপনি সফলভাবে লগআউট করেছেন।", true);
+                    window.showMessage(" alt sievice , "আপনি সফলভাবে লগআউট করেছেন।", true);
                 } catch (error) {
                     window.showMessage("লগআউট ত্রুটি", লগআউট ব্যর্থ হয়েছে: ${error.message}, false);
                 }
@@ -157,7 +157,7 @@
             <form id="login-form" onsubmit="event.preventDefault(); window.handleLogin(window.auth);">
                 <input type="email" placeholder="ইমেল ঠিকানা"
                        class="w-full p-4 mb-4 border border-gray-300 rounded-xl focus:ring-blue-500 focus:border-blue-500 text-gray-700 placeholder-gray-400 text-base">
-                <input type="password" placeholder="পাসওয়ার্ড"
+                <input type="password" placeholder 11223311
                        class="w-full p-4 mb-6 border border-gray-300 rounded-xl focus:ring-blue-500 focus:border-blue-500 text-gray-700 placeholder-gray-400 text-base">
 
                 <button type="submit"
@@ -304,7 +304,7 @@
             <h3 id="modal-title" class="text-2xl font-bold text-blue-600 mb-4"></h3>
             <div id="modal-message" class="text-gray-700 mb-6"></div>
             <button id="close-modal-button" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">
-                বন্ধ করুন
+                 <lock>mun >
             </button>
         </div>
     </div>
